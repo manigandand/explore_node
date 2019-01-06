@@ -1,0 +1,27 @@
+{
+  "name": "explore_nodejs",
+  "version": "1.0.0",
+  "description": "explring the power of nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manigandand/explore_node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "expressjs"
+  ],
+  "author": "Manigandan Dharmalingam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manigandand/explore_node/issues"
+  },
+  "homepage": "https://github.com/manigandand/explore_node#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

@@ -18,7 +18,8 @@ var apiHandler = function (res) {
     var response = {
         "data": {
             "message": "Hello NodeJS - Up!",
-            "uptime": Date.now()
+            "uptime": Date.now(),
+            "health": "up"
         },
         "meta": {
             "status": 200
