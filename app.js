@@ -74,4 +74,6 @@ people.forEach(function (person) {
 
 // emit events
 james.emit('speak', 'hi, i am james.');
-manigandan.emit('seapk', 'hi dude, how are you');
+manigandan.emit('speak', 'hi dude, how are you');
+
+console.log('----------------------------------------------------------------');
