@@ -1,3 +1,7 @@
+var counter = require("./count")
+
+var stuff = require("./stuff")
+
 console.log("Exploring the power of nodejs");
 console.log(__dirname);
 console.log(__filename);
@@ -31,3 +35,10 @@ var f = function () {
 };
 
 func(f);
+
+// modules
+console.log(counter(['golang', 'nodejs', 'javascript', 'reactjs', 'mongodb']));
+
+console.log(stuff.counter(['golang', 'nodejs', 'javascript', 'reactjs']));
+console.log(stuff.sum(5, 3));
+console.log(stuff.pi);
