@@ -9,7 +9,7 @@ var server = http.createServer(function (req, res) {
         'Content-Type': 'text/plain'
     });
 
-    var readStream = fs.createReadStream(__dirname + '/readme.txt', 'utf8');
+    var readStream = fs.createReadStream(__dirname + '/input.txt', 'utf8');
     readStream.pipe(res);
 });
 
